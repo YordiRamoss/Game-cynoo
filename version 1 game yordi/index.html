@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Cyno </title>		
+		<link rel="icon" type="image/x-icon" href="./Assets/CYNOFAVI.png">
+	</head>
+	
+	<body>
+		<form name="CynoPet">
+	
+		<section class="TitleText">
+			<h1>Keep Cyno happy</h1>
+		</section>
+		
+		<section class="MoneyCounter">
+			<p>Mora<output type="inline" class="MoneyValue" value="0"></output></p>
+		</section>
+		
+		<section class="CynoPic">
+			<img src="./Images/CynoPet.png" alt="Cyno" width="450" height="auto">
+		</section>
+		
+		<section class="StatHonger">
+				Honger: <progress class="HongerBar" min="0" max="100" value="100">
+						</progress>
+		</section>
+		
+		<section class="StatTraining">
+				Training:	<progress class="TrainingBar" min="0" max="100" value="100" >
+							</progress>
+		</section>
+		
+		<section class="StatVrolijk">
+				Vrolijk:	<progress class="VrolijkBar" min="0" max="100" value="100">
+						</progress>
+		</section>
+	
+		<section class="Buttons">
+				<input class="BtnHonger" type="Button" value="Voed">
+				<input class="BtnTraining" type="Button" value="Train">
+				<input class="BtnVrolijk" type="Button" value="Speel">
+			</section>
+		
+		<section class="Footer">
+			<p><small>
+				Hoe speel je dit spel:<br/>Klik op de knoppen om Cyno gelukkig te houden.
+				<br/>als de staven op leeg zijn kan je ze niet meer vullen!
+				<br/>Als ze alle 3 op 0 staan is het, GAME OVER!<br/>
+			</small></p>
+		</section>
+		
+		<section class="ItemWindow">
+			<h2><br/>-- Item Shop --</h2>
+			<p>
+				<input class="item1" type="Button" value="Koop Adeptus Temptation"><br/>
+				<small>Prijs: 150 mora</small><br/>
+				<small>Als uitgehongerd, Hersteld Cyno.</small><br/><br/>
+				<input class="item2" type="Button" value="Koop een wapen"><br/>
+				<small>Prijs: 200 mora</small><br/>
+				<small>If sick, cures your pet.</small><br/><br/>
+				<input class="item3" type="Button" value="Koop antidepressiva"><br/>
+				<small>Prijs: 300 mora</small><br/>
+				<small>Als depresief, Maakt Cyno volledig blij.</small><br/><br/>
+				<input id="item4" type="Button" value="koop elementalburst"><br/>
+				<small>Price: 1000 mora</small><br/>
+				<small>Als de optimale training gebruik je Elementalburst .</small><br/><br/>
+			</p>
+		</section>
+		<script src="script.js"></script>
+	</body>
+	
+	</html>
